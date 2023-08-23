@@ -67,7 +67,3 @@ crashlytics-build.properties
 /ProjectSettings/BurstAotSettings_StandaloneWindows.json
 /ProjectSettings/CommonBurstAotSettings.json
 
-# test object
-/[Aa]ssets/scripts/TestObj.cs
-/[Aa]ssets/scripts/TestUI.cs
-
