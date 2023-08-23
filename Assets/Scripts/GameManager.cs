@@ -13,7 +13,11 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetMouseButtonDown(0))
+        {
+            var pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            print(NavManager.Instance.navMap.WorldToCell(pos));
+        }
     }
     
 }
